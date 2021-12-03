@@ -1,0 +1,103 @@
+.wrappers{
+  background:url("./images/wallpaper.jpg");
+  height: 100vh;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.box
+{
+  width:7rem;
+  height: 7rem;
+  font-size: 7rem;
+  display:flex;
+  align-items: flex-end;
+  justify-content: center;
+  cursor: pointer;
+  background:#1A1329;
+  
+}
+.board
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: min-content;
+    margin:0rem auto;
+    gap: 1%;
+}
+.userdetail
+
+{
+  display: flex;
+  border: 1px solid black;
+  flex-direction: column;
+  max-width: 20rem;
+  max-height: 20rem;
+  margin: 1%;
+ 
+}
+.container{
+ 
+  background:#383E4E;
+  text-align: center;
+  border: 3px solid yellow;
+  width: fit-content;
+  height: fit-content;
+ padding: 2% 10%;
+ box-sizing: border-box;
+ border-radius: 20px;
+}
+.container > h1{
+  color: white;
+  font-size: 2rem;
+  margin: 0%;
+}
+.infoline{
+ display: flex;
+  justify-content: space-around;
+  color: white;
+  font-size: 1.5rem;
+}
+.model {
+  position: fixed;
+  opacity: 0.9;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+  transition: all 0.3s ease-in-out;
+  box-sizing: border-box;
+}
+.modelarea {
+  border: 2px solid black;
+  height: fit-content;
+  width: 20vw;
+ 
+}
+.modelheader {
+  background: black;
+  height: 5vh;
+}
+.modelheader > div {
+  margin-left: auto;
+  color: black;
+  width: 2rem;
+  background-color: white;
+  height: 2rem;
+}
+.modelcontent {
+  background-color: rgb(207, 207, 207);
+  padding: 5%;
+   height: fit-content;
+   width: 18vw;
+
+}

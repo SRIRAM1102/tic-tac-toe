@@ -1,0 +1,44 @@
+.wrapper{
+    background: gray;
+}
+.calc-app > form{
+    box-sizing: border-box;
+     margin-bottom: 1rem;
+     background: #F6FAFF;
+ }
+ .calc-app > form > input{
+    background: #F6FAFF;
+    border-radius: 7px;
+    overflow: hidden;
+ }
+ .calc-app > h6{
+    color: aliceblue;
+    font-size: 1.5rem;
+    margin: 0% 0% 1% 0%;
+    
+ }
+.calc-app {
+   border-radius: 15px;
+    background: rgb(59, 59, 59);
+    padding: 2%;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 256px;
+    text-align: center;
+    }
+    .keypad{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-auto-rows: minmax(60px, auto);
+      gap:1%;
+    }
+    input[type="text"]{
+      height: 60px;
+      width:250px;
+    }
+    #result{
+      grid-column:1/5;
+    }
+.keypad >button:hover{
+  background:rgb(59, 59, 59);
+}
